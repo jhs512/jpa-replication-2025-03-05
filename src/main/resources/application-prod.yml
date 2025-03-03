@@ -1,0 +1,17 @@
+custom:
+  datasource:
+    source:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/surl
+      username: root
+      password: lldj123414
+    replica1:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3307/surl
+      username: root
+      password: lldj123414
+    replica2:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3308/surl
+      username: root
+      password: lldj123414
